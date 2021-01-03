@@ -147,7 +147,7 @@ gcc example3.c $（pkg-config --cflags --libs glib-2.0）-o example3
 
 # 2. Glade Gtk C投币示例程序
 
-​	**window_main.glade**文件的具体创建信息如下图片所示：
+### 	**window_main.glade**文件的具体创建信息如下图片所示：
 
 ***
 
@@ -164,3 +164,22 @@ gcc example3.c $（pkg-config --cflags --libs glib-2.0）-o example3
 
 
 ​	源代码：[main.c](https://github.com/katoluo/Learn-GTK3-Basics/blob/master/005_coin_toss/src/main.c) 、[Makefile](https://github.com/katoluo/Learn-GTK3-Basics/blob/master/005_coin_toss/Makefile)
+
+### 构建并运行项目：
+
+​	在终端窗口中打开模板目录，并通过输入make命令使用make文件来构建项目。
+
+```bash
+make
+```
+
+​	在终端窗口中输入以下命令来运行该项目：
+
+```bash
+./coin_toss
+```
+
+​	运行结果如下图所示：
+
+​                  <img src="https://github.com/katoluo/Learn-GTK3-Basics/raw/master/005_coin_toss/images/pic04.png" alt="pic04.png" style="zoom:80%;" />      <img src="https://github.com/katoluo/Learn-GTK3-Basics/raw/master/005_coin_toss/images/pic05.png" alt="pic05.png" style="zoom:80%;" />          <img src="https://github.com/katoluo/Learn-GTK3-Basics/raw/master/005_coin_toss/images/pic06.png" alt="pic06.png" style="zoom:80%;" />
+
