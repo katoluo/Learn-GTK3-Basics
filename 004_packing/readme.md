@@ -6,11 +6,11 @@
 
 ​	**Glade固定网格窗口与Glade Packing窗口：**下图显示了两个窗口之间的比较。使用固定网格创建一个窗口，使用打包创建另一个窗口。调整窗口大小时，打包的窗口会自动定位小部件，而固定的网格窗口会将小部件放在同一位置。
 
-![pic01.png]()
+![pic01.png](https://github.com/katoluo/Learn-GTK3-Basics/raw/master/004_packing/images/pic01.png)
 
 <center>Glade固定网格窗口（左）与Glade Packing窗口（右）放大后的窗口</center>
 
-![pic02.png]()
+![pic02.png](https://github.com/katoluo/Learn-GTK3-Basics/raw/master/004_packing/images/pic02.png)
 
 <center>Glade固定网格（左）与Glade Packing（右）Windows减小到最小尺寸</center>
 
@@ -43,7 +43,7 @@ TARGET=packing
 
 ​	您的项目文件夹现在应如下所示。
 
-![pic03.png]()
+![pic03.png](https://github.com/katoluo/Learn-GTK3-Basics/raw/master/004_packing/images/pic03.png)
 
 ### 2. 编辑Glade文件
 
@@ -53,7 +53,7 @@ TARGET=packing
 
 ​	单击中间的窗格中的“**容器**”下的“GtkBox”，然后点击主窗口，创建成功之后，可根据下图中的红框进行设置：
 
-![pic04.png]()
+![pic04.png](https://github.com/katoluo/Learn-GTK3-Basics/raw/master/004_packing/images/pic04.png)
 
 #### 2.2 添加两个文本标签
 
@@ -61,7 +61,7 @@ TARGET=packing
 
 ​	Glade编辑器中的主窗口现在应如下所示。
 
-![pic05.png]()
+![pic05.png](https://github.com/katoluo/Learn-GTK3-Basics/raw/master/004_packing/images/pic05.png)
 
 <center>添加标签后的Glade窗口</center>
 
@@ -73,7 +73,7 @@ TARGET=packing
 
 ​	现在，该按钮将跨越窗口的宽度。要使按钮居中，请单击Glade右窗格中的“**公共”**选项。向下滚动以找到“**组件间距”**标题，然后将“**水平的：”**从“填充”更改为“**中心”**，如下图所示。
 
-![pic06.png]()
+![pic06.png](https://github.com/katoluo/Learn-GTK3-Basics/raw/master/004_packing/images/pic06.png)
 
 #### 2.4 更改主窗口的宽度和标题
 
@@ -99,4 +99,7 @@ TARGET=packing
 
 ​	单击“ **Hello”**按钮应显示“ Hello，world！” 在第一个文本标签中，并在第二个文本标签中增加计数。可以调整窗口的大小，并且小部件现在将水平放置在窗口的中间。
 
-![pic07.png]()
+![pic07.png](https://github.com/katoluo/Learn-GTK3-Basics/raw/master/004_packing/images/pic07.png)
+
+
+
